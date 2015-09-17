@@ -17,8 +17,7 @@ then
 
   node abp2blocklist.js < easylist.txt > easylist.json
 
-  git add easylist.json
-  git commit -m "Update easyList `date`"
+  git commit -a -m "Update easyList `date`"
   git push origin compatible
 fi
 
